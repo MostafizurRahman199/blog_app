@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.wrapper{
+background-color: var(--softTextColor);
+padding: 150px 200px;
+display: flex;
+flex-direction: column;
+gap: 50px;
+border-radius: 10px;
+}
+
+.socialButton{
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    color: Black;
+    font-weight: bold;
+    cursor: pointer;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: azure;
+    
+}
+
+.socialButton:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.image{
+    margin-right: 4px;
+}
+
+@media screen and (max-width:768px){
+    .wrapper{
+        padding: 50px 100px;
+    }
+}
+
+@media screen and (max-width:640px){
+    .wrapper{
+        padding: 30px;
+    }
+}
+@media screen and (max-width:366px){
+   .signUp{
+   font-size: small;
+   }
+
+   .image{
+    width: 40;
+    height: 40;
+   }
+}
+
